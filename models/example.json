@@ -1,0 +1,41 @@
+{
+  "config": {
+    "locale": "en"
+  },
+  "model": {
+
+
+    "Name": {
+      "type": "faker",
+      "value": "name.firstName"
+    },
+    "JobType": {
+      "type": "randomElementInArray",
+      "value": ["Full Time", "Part Time", "Free Lancer", "Intern"]
+    },
+    "Industry": {
+      "type": "randomElementInArray",
+      "value": ["Information Technology", "Nano-Technology", "Bio-Technology", "AerospaceTechnology", "Robotics", "Machine Learning/Artificial Intelligence", "Data Analytics", "Design/Animation", "Mobile App Development", "Software/Hardware", "E-commerce", "Games", "Media & Entertainment", "Marketing and Advertising", "EduTech", "Mobile Internet", "Others", "Telephone", "Mobile", "Semiconductor", "Electronics", "Fiber Optics", "Telecom", "Carrier Networks", "Others", "Advertising", "Entertainment", "Marketing", "News Publisher", "Broadcasting/Movies/Radio", "Television", "Social Media", "Newspaper/Books/Magazines", "Retail/Investment Banking", "Insurance", "Securities / Futures", "Venture Capital", "Brokerage", "Wealth & Asset Management", "FinTech", "EXIM/BFSI", "Accounting/Finance", "Others", "Automobile/Auto Ancillary", "Equipment Manufacturers", "Electronic Component Manufacturers", "Two/Three/Four Wheelers", "Passenger/Commercial Vehicles", "Others","Food/Hotel/Travel", "Wedding / Photography", "Luxury/Hospitality", "Airline", "Health & Fitness", "Rental", "Other Services", "Transportation", "Logistics and warehousing", "Wholesale and Retail", "Supply Chain", "Shopping Mall/Stores", "Import & Export", "Others", "Real Estate", "Engineering construction", "Architectural design", "Decoration", "Building Equipments", "Real estate broker / intermediary", "Commercial service", "Others", "School Education", "College/University", "Training institutions", "EduTech", "Academic Research", "Teaching/Coaching", "Others", "Food and Beverages","Packaged and Processed Food", "Textiles/Garments/Accessories", "Furniture / Home Appliances", "Toys/Gifts/Jewellery", "Pharamaceutical Products", "Dairy/Household/FMCG", "Others", "Machinery / Electromechanical", "Production/Fabrication/Packaging", "Instrumentation / Process Automation", "Raw materials and processing", "Shipping / Aviation/Aerospace Firms", "Ceramic/Sanitary", "Others", "Advisory", "BPO", "Legal", "Translation", "Human Resources Service", "Finance / Audit / Tax", "Testing / certification", "Patent / Trademark / Intellectual Property", "Consulting/Management", "Other Professional Services", "Pharmaceutical Firm", "Hospital/Nursing/Clinics", "Medical equipment / apparatus", "Medicinal Stores", "Health Treatment", "Fertilizers/Pesticides", "Others", "Petroleum / Petrochemical", "Chemical Industry", "Minerals / Geology", "Mining / Smelting/Metals", "Gas / Oil / Electricity / Thermal", "Energy", "Environmental protection", "Agriculture", "Forestry", "Animal husbandry and fisheries", "Others", "Government/PSU", "NGO", "Defence/Administration", "Social Service", "PR/MR/Media/Events", "Water Treatment/Waste Management"]
+    },
+    "Location": {
+      "type": "faker",
+      "value": "address.city"
+    },
+    "Education": {
+      "type": "randomElementInArray",
+      "value": ["Graduation/Diploma", "Post-Graduation", "Doctorate", "Higher Secondary", "School"]
+    },
+    "Minimum Experience": {
+      "type": "randomNumberBetween",
+      "value": [0, 29]
+      },
+    "Salary": {
+      "type": "faker",
+      "value": "faker.finance.amount()"
+    }
+  }
+
+
+
+
+}
